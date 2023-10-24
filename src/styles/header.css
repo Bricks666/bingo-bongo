@@ -1,0 +1,41 @@
+.header {
+	position: relative;
+
+	background-image: url('/src/assets/images/waves.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 688px;
+}
+
+.header::before,
+.header::after {
+	content: '';
+	position: absolute;
+
+	display: inline-block;
+
+	width: 150px;
+	height: 300px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.header::before {
+	left: 0;
+	top: calc(50% + 100px);
+
+	background-image: url('/src/assets/images/star-main.svg');
+
+	transform: translateY(-50%);
+}
+
+.header::after {
+	right: 0;
+	top: calc(50% - 100px);
+
+	background-image: url('/src/assets/images/flower-main.svg');
+
+	transform: translateY(-50%);
+}

@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #32bfce;
+	--secondary-color: #ff5b35;
+	--third-color: #f5d961;
+	--text-color: #051439;
+	--invert-text-color: #ffffff;
+
+	--border-radius: 18px;
+}
+
+body {
+	font-family: Rubik, sans-serif;
+	color: var(--text-color);
+}
+
+ul,
+li,
+ol,
+input,
+label,
+p,
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1440px;
+
+	padding: 0 120px;
+	margin: 0 auto;
+}

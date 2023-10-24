@@ -1,0 +1,31 @@
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: max-content;
+
+	padding: 15px 50px;
+	margin: 0;
+
+	border-radius: var(--border-radius);
+	border: none;
+
+	font-weight: 700;
+	font-family: inherit;
+}
+
+.button--primary {
+	background-color: var(--primary-color);
+	color: var(--text-color);
+}
+
+.button--secondary {
+	background-color: var(--secondary-color);
+	color: var(--invert-text-color);
+}
+
+.button--third {
+	background-color: var(--third-color);
+	color: var(--text-color);
+}
