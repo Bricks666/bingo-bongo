@@ -1,0 +1,24 @@
+.footer {
+	padding: 60px 0;
+
+	background-color: #e8e7df;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__copyright {
+	font-size: 14px;
+}
+
+.footer__links {
+	display: flex;
+	gap: 1em;
+}
+
+.footer__policy {
+	font-size: 14px;
+}
