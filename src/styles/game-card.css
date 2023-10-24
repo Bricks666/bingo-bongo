@@ -1,0 +1,5 @@
+.game-card__container {
+	display: grid;
+	grid-template-columns: 600px 1fr;
+  gap: 1em;
+}

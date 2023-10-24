@@ -1,0 +1,33 @@
+.game-card-sections {
+	display: grid;
+	gap: 1.5em;
+}
+
+.game-card-sections__buttons-list {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 0.3em;
+
+	border-radius: calc(var(--border-radius) / 1);
+
+	background-color: #f0f0eb;
+}
+
+.game-card-sections__button {
+	font-size: 15px;
+}
+
+.game-card-sections__button--deactivated {
+	background-color: transparent;
+}
+
+.game-card-sections__text {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.game-card-sections__paragraph {
+	font-size: 18px;
+}
