@@ -1,0 +1,32 @@
+.games__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));
+	flex-wrap: wrap;
+	gap: 36px;
+}
+
+.games__item {
+	display: grid;
+	justify-items: center;
+	gap: 20px;
+
+	padding: 30px 40px;
+
+	border-radius: calc(var(--border-radius) * 3);
+}
+
+.games__image {
+	max-height: 217px;
+}
+
+.games__item:nth-of-type(1) {
+	background-color: #f3e5f4;
+}
+
+.games__item:nth-of-type(2) {
+	background-color: #daf3f5;
+}
+
+.games__item:nth-of-type(3) {
+	background-color: #f6eed1;
+}

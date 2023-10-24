@@ -1,9 +1,12 @@
 @import url('./fonts.css');
 @import url('./common.css');
-@import url('./section.css');
 @import url('./typography.css');
 @import url('./button.css');
 @import url('./page.css');
 @import url('./header.css');
 @import url('./navigation.css');
 @import url('./main-block.css');
+@import url('./main.css');
+@import url('./about.css');
+@import url('./about-info.css');
+@import url('./games.css');
