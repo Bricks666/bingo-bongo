@@ -28,11 +28,15 @@ label,
 p,
 h1,
 h2,
-h3 {
+h3,
+fieldset,
+form {
 	margin: 0;
 	padding: 0;
 
 	list-style: none;
+
+	border: none;
 }
 
 a {
@@ -44,4 +48,16 @@ a {
 
 	padding: 0 120px;
 	margin: 0 auto;
+}
+
+.hidden {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	font-size: 1px;
+	visibility: hidden;
 }

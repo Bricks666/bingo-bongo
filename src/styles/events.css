@@ -1,0 +1,110 @@
+.events {
+	background-image: url('/src/assets/images/waves.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 100%;
+}
+
+.events__container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 100px;
+}
+
+.events__info {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.events__specifics-list {
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+}
+
+.events__specifics-item {
+	position: absolute;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+
+	font-weight: 500;
+}
+
+.events__specifics-item--flower {
+	top: 20%;
+	left: 0;
+
+	width: 164px;
+	height: 164px;
+
+	background-image: url('/src/assets/images/flower.svg');
+}
+
+.events__specifics-item--fire {
+	top: -20%;
+	left: 50%;
+
+	width: 150px;
+	height: 170px;
+
+	background-image: url('/src/assets/images/fire.svg');
+
+	transform: translateX(-50%);
+}
+
+.events__specifics-item--romb {
+	right: 0;
+	top: 0;
+
+	width: 160px;
+	height: 110px;
+
+	background-image: url('/src/assets/images/rhomb.svg');
+}
+
+.events__specifics-item--arrow {
+	left: 50%;
+	top: 100%;
+
+	width: 300px;
+	height: 150px;
+
+	background-image: url('/src/assets/images/arrow.svg');
+
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.events__specifics-item--arrow .events__specifics-item-span {
+	transform: rotate(-15deg);
+}
+
+.events__paragraph {
+	font-size: 18px;
+}
+
+.events__form {
+	display: grid;
+	gap: 1em;
+}
+
+.events__game-level-legend {
+	margin-bottom: 0.5em;
+}
+
+.events__game-level-list {
+	display: flex;
+	gap: 0.8em;
+	flex-wrap: wrap;
+}
+
+.events__checkbox {
+	margin-bottom: 20px;
+}

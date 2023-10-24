@@ -289,21 +289,39 @@
 				</div>
 			</section>
 			<section class="main__section events">
-				<div class="container">
-					<div>
-						<h2>Октябрьская игротека</h2>
-						<p>
+				<div class="container events__container">
+					<div class="events__info">
+						<h2 class="title">Октябрьская игротека</h2>
+						<p class="paragraph events__paragraph">
 							Приглашаем вас на увлекательную игротеку от Бинго бонго! Приводите
 							сами, приводите друзей и семью! Мы обещаем - будет очень весело
 						</p>
-						<div>
-							<p>3 ноября</p>
-							<p>Билет 300р</p>
-							<p>15:00</p>
-							<p>ТЦ "Гига", Москва</p>
+						<div class="events__specifics-list">
+							<p
+								class="paragraph events__specifics-item events__specifics-item--flower"
+							>
+								<span class="events__specifics-item-span">3 ноября</span>
+							</p>
+							<p
+								class="paragraph events__specifics-item events__specifics-item--fire"
+							>
+								<span class="events__specifics-item-span">Билет 300р</span>
+							</p>
+							<p
+								class="paragraph events__specifics-item events__specifics-item--romb"
+							>
+								<span class="events__specifics-item-span">15:00</span>
+							</p>
+							<p
+								class="paragraph events__specifics-item events__specifics-item--arrow"
+							>
+								<span class="events__specifics-item-span"
+									>ТЦ "Гига", Москва</span
+								>
+							</p>
 						</div>
 					</div>
-					<form>
+					<form class="events__form">
 						<div class="filed">
 							<label class="field__label" for="name">Имя</label>
 							<input id="name" class="field__input" type="text" name="name" />
@@ -323,55 +341,61 @@
 						</div>
 
 						<fieldset>
-							<div class="radio">
-								<input
-									id="game-level-beginner"
-									class="radio__input"
-									type="radio"
-									name="game-level"
-									value="beginner"
-								/>
-								<label class="radio__label" for="game-level-beginner"
-									>Новичок</label
-								>
-							</div>
-							<div class="radio">
-								<input
-									id="game-level-advanced"
-									class="radio__input"
-									type="radio"
-									name="game-level"
-									value="advanced"
-								/>
-								<label class="radio__label" for="game-level-advanced"
-									>Любитель</label
-								>
-							</div>
-							<div class="radio">
-								<input
-									id="game-level-professional"
-									class="radio__input"
-									type="radio"
-									name="game-level"
-									value="professional"
-								/>
-								<label class="radio__label" for="game-level-professional"
-									>Профессионал</label
-								>
+							<legend class="events__game-level-legend">
+								Выберите свой игровой уровень
+							</legend>
+							<div class="events__game-level-list">
+								<div class="radio">
+									<input
+										id="game-level-beginner"
+										class="hidden radio__input"
+										type="radio"
+										name="game-level"
+										value="beginner"
+									/>
+									<label class="radio__label" for="game-level-beginner"
+										>Новичок</label
+									>
+								</div>
+								<div class="radio">
+									<input
+										id="game-level-advanced"
+										class="hidden radio__input"
+										type="radio"
+										name="game-level"
+										value="advanced"
+									/>
+									<label class="radio__label" for="game-level-advanced"
+										>Любитель</label
+									>
+								</div>
+								<div class="radio">
+									<input
+										id="game-level-professional"
+										class="hidden radio__input"
+										type="radio"
+										name="game-level"
+										value="professional"
+									/>
+									<label class="radio__label" for="game-level-professional"
+										>Профессионал</label
+									>
+								</div>
 							</div>
 						</fieldset>
-						<div class="checkbox">
+						<div class="checkbox events__checkbox">
 							<input
-								class="checkbox__input"
+								id="personal-data-agreement"
+								class="hidden checkbox__input"
 								type="checkbox"
 								name="personal-data-agreement"
 							/>
-							<label class="checkbox__label"
+							<label class="checkbox__label" for="personal-data-agreement"
 								>Я согласен на обработку моих персональных данных</label
 							>
 						</div>
 
-						<button class="button">Купить билет</button>
+						<button class="button button--secondary">Купить билет</button>
 					</form>
 				</div>
 			</section>
