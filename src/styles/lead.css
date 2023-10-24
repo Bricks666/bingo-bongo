@@ -1,0 +1,31 @@
+.lead {
+	height: min(100vh, 560px);
+
+	background-color: #f1eee7;
+	background-image: url('/src/assets/images/photo.png'),
+		linear-gradient(to top, #f1eee7, #f6f3ec);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.lead__container {
+	position: relative;
+
+	display: grid;
+	gap: 2em;
+
+	padding-left: 290px;
+}
+
+.lead__floating-heart {
+	position: absolute;
+	left: 8%;
+}
+
+.lead__title {
+  max-width: 400px;
+}
+
+.lead__paragraph {
+  max-width: 450px;
+}
